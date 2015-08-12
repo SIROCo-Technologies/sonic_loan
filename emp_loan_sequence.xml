@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+    
+     <record id="seq_type_hr_employee_loan" model="ir.sequence.type">
+            <field name="name">hr.employee.loan</field>
+            <field name="code">hr.employee.loan</field>
+        </record>
+
+        <record id="seq_hr_employee_loan" model="ir.sequence">
+            <field name="name">Employee Loan</field>
+            <field name="code">hr.employee.loan</field>
+            <field name="prefix">EMP LOAN</field>
+            <field name="padding">6</field>
+            <field name="company_id" eval="False"/>
+        </record>
+        
+      
+      <record id="seq_type_hr_employee_loan_reschedule" model="ir.sequence.type">
+            <field name="name">hr.employee.loan.reschedule</field>
+            <field name="code">hr.employee.loan.reschedule</field>
+        </record>
+
+        <record id="seq_hr_employee_loan_reschedule" model="ir.sequence">
+            <field name="name">Employee Loan Reschedule</field>
+            <field name="code">hr.employee.loan.reschedule</field>
+            <field name="prefix">ELR</field>
+            <field name="padding">6</field>
+            <field name="company_id" eval="False"/>
+        </record>  
+    
+        
+        
+</data>
+</openerp>        

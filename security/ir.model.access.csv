@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_loan_hr_user,hr.employee.loan,model_hr_employee_loan,base.group_hr_user,1,1,1,1
+access_loan_line_hr_user,hr.employee.loan.line,model_hr_employee_loan_line,base.group_hr_user,1,1,1,1
+access_loan_reschedule_hr_user,hr.employee.loan.reschedule,model_hr_employee_loan_reschedule,base.group_hr_user,1,1,1,1
+
+
